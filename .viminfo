@@ -28,10 +28,36 @@
 	s
 
 # File marks:
-'0  2  19  ~/.gitconfig
-'1  7  23  ~/.git/config
+'0  3  7  ~/.gitignore
+'1  2  15  ~/.gitignore
+'2  2  19  ~/.gitconfig
+'3  7  23  ~/.git/config
 
 # Jumplist (newest first):
+-'  3  7  ~/.gitignore
+-'  2  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  2  19  ~/.gitconfig
+-'  10  5  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
+-'  2  19  ~/.gitconfig
+-'  10  5  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
+-'  2  19  ~/.gitconfig
+-'  10  5  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
+-'  7  23  ~/.git/config
+-'  1  0  ~/.git/config
 -'  2  19  ~/.gitconfig
 -'  10  5  ~/.gitconfig
 -'  1  0  ~/.gitconfig
@@ -41,6 +67,13 @@
 -'  1  0  ~/.git/config
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	3	7
+	^	3	8
+	.	3	7
+	+	2	0
+	+	3	7
 
 > ~/.gitconfig
 	"	2	19
