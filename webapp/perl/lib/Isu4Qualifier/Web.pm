@@ -71,12 +71,6 @@ sub attempt_login {
   }
 };
 
-sub current_user {
-  my ($self, $user_id) = @_;
-
-  $self->db->select_row('SELECT * FROM users WHERE id = ?', $user_id);
-};
-
 sub banned_ips {
   my ($self) = @_;
   my @ips;
@@ -147,7 +141,7 @@ post '/login' => sub {
   );
 
   if ($user && $user->{id}) {
-    $c->req->env->{'psgix.session'}->{user_id} = $user->{id};
+    $c->req->env->{'psgix.session'}->{user_login} = $user->{login};
     $c->req->env->{'psgix.session'}->{last_login_at} = $user->{last_login_at};
     $c->req->env->{'psgix.session'}->{last_login_ip} = $user->{last_login_ip};
     $c->redirect('/mypage');
@@ -168,13 +162,12 @@ post '/login' => sub {
 
 get '/mypage' => [qw(session)] => sub {
   my ($self, $c) = @_;
-  my $user_id = $c->req->env->{'psgix.session'}->{user_id};
-  my $user = $self->current_user($user_id);
+  my $user_login = $c->req->env->{'psgix.session'}->{user_login};
   my $msg;
 
-  if ($user) {
+  if ($user_login) {
     $c->render('mypage.tx', { 
-      user_login    => $user->{login},
+      user_login    => $user_login,
       last_login_at => $c->req->env->{'psgix.session'}->{last_login_at},
       last_login_ip => $c->req->env->{'psgix.session'}->{last_login_ip},
     });
