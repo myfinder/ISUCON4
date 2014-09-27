@@ -3,6 +3,16 @@ ISUCON4
 
 アプリの挙動メモ
 
+# 改善候補
+
+## sessionストア
+
+```
+store => Plack::Session::Store::File->new(
+  dir         => $session_dir,
+),
+```
+
 # アプリのパス
 
 /
