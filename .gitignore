@@ -2,3 +2,5 @@
 .ssh/known_hosts
 .viminfo
 .gitconfig
+*.swp
+.lesshst
