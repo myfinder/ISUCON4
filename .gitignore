@@ -1,6 +1,7 @@
 .bash_history
 .ssh/known_hosts
 .viminfo
+.vimrc
 .gitconfig
 *.swp
 .lesshst
