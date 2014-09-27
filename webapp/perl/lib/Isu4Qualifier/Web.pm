@@ -77,16 +77,6 @@ sub current_user {
   $self->db->select_row('SELECT * FROM users WHERE id = ?', $user_id);
 };
 
-sub last_login {
-  my ($self, $user_id) = @_;
-
-  my $logs = $self->db->select_all(
-   'SELECT * FROM login_log WHERE succeeded = 1 AND user_id = ? ORDER BY id DESC LIMIT 2',
-   $user_id);
-
-  @$logs[-1];
-};
-
 sub banned_ips {
   my ($self) = @_;
   my @ips;
@@ -111,7 +101,8 @@ sub login_log {
     $user_id, $login, $ip, ($succeeded ? 1 : 0)
   );
   if ($succeeded) {
-    $self->db->query(q{UPDATE users SET fail_count = 0 WHERE id = ?}, $user_id);
+    $self->db->query(q{UPDATE users SET fail_count = 0, last_login_at = NOW(), last_login_ip = ? WHERE id = ?}, 
+                     $ip, $user_id);
     $self->db->query(q{DELETE FROM fail_ips WHERE ip = ?}, $ip);
   } else {
     $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id);
@@ -164,6 +155,8 @@ post '/login' => sub {
 
   if ($user && $user->{id}) {
     $c->req->env->{'psgix.session'}->{user_id} = $user->{id};
+    $c->req->env->{'psgix.session'}->{last_login_at} = $user->{last_login_at};
+    $c->req->env->{'psgix.session'}->{last_login_ip} = $user->{last_login_ip};
     $c->redirect('/mypage');
   }
   else {
@@ -187,7 +180,11 @@ get '/mypage' => [qw(session)] => sub {
   my $msg;
 
   if ($user) {
-    $c->render('mypage.tx', { last_login => $self->last_login($user_id) });
+    $c->render('mypage.tx', { 
+      user_login    => $user->{login},
+      last_login_at => $c->req->env->{'psgix.session'}->{last_login_at},
+      last_login_ip => $c->req->env->{'psgix.session'}->{last_login_ip},
+    });
   }
   else {
     $self->set_flash($c, "You must be logged in");

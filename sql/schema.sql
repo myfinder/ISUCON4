@@ -3,7 +3,9 @@ CREATE TABLE IF NOT EXISTS `users` (
   `login` varchar(255) NOT NULL UNIQUE,
   `password_hash` varchar(255) NOT NULL,
   `salt` varchar(255) NOT NULL,
-  `fail_count` int unsigned NOT NULL
+  `fail_count` int unsigned NOT NULL,
+  `last_login_at` datetime,
+  `last_login_ip` varchar(255)
 ) DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `login_log` (
