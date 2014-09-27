@@ -48,12 +48,12 @@ sub attempt_login {
   my $fail_ip = $self->db->select_row('SELECT * FROM fail_ips WHERE ip = ?', $ip);
 
   if ($fail_ip && $self->config->{ip_ban_threshold} <= $fail_ip->{fail_count}) {
-    $self->login_log(0, $login, $ip, $user ? $user->{id} : undef);
+    $self->login_log(0, $login, $ip, $user ? $user->{id} : undef, 1);
     return undef, 'banned';
   }
 
   if ($self->config->{user_lock_threshold} <= $user->{fail_count}) {
-    $self->login_log(0, $login, $ip, $user->{id});
+    $self->login_log(0, $login, $ip, $user->{id}, undef, 1);
     return undef, 'locked';
   }
 
@@ -89,15 +89,15 @@ sub locked_users {
 };
 
 sub login_log {
-  my ($self, $succeeded, $login, $ip, $user_id) = @_;
+  my ($self, $succeeded, $login, $ip, $user_id, $skip_failip_update, $skip_user_update) = @_;
 
   if ($succeeded) {
     $self->db->query(q{UPDATE users SET fail_count = 0, last_login_at = NOW(), last_login_ip = ? WHERE id = ?}, 
                      $ip, $user_id);
     $self->db->query(q{DELETE FROM fail_ips WHERE ip = ?}, $ip);
   } else {
-    $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id);
-    $self->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1) ON DUPLICATE KEY UPDATE fail_count = fail_count + 1}, $ip);
+    $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id) unless $skip_user_update;
+    $self->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1) ON DUPLICATE KEY UPDATE fail_count = fail_count + 1}, $ip) unless $skip_failip_update;
   }
 };
 
