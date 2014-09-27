@@ -20,4 +20,8 @@ export ISU4_DB_USER=isucon
 export ISU4_DB_PASSWORD=isucon
 export ISU4_DB_NAME=isu4_qualifier
 
+export NYTPROF=file=/home/isucon/nytprof/nytprof.out:sigexit=int
+export PERL5LIB=/home/isucon/webapp/perl/local/lib/perl5:/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/
+#export PERL5OPT=-d:NYTProf
+
 exec $*

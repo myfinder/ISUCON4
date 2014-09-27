@@ -6,3 +6,6 @@ nytprof/
 .gitconfig
 *.swp
 .lesshst
+.cpanm
+.cpanm/*
+.mysql_history
