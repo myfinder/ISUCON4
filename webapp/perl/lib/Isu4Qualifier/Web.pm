@@ -96,10 +96,7 @@ sub locked_users {
 
 sub login_log {
   my ($self, $succeeded, $login, $ip, $user_id) = @_;
-  $self->db->query(
-    'INSERT INTO login_log (`created_at`, `user_id`, `login`, `ip`, `succeeded`) VALUES (NOW(),?,?,?,?)',
-    $user_id, $login, $ip, ($succeeded ? 1 : 0)
-  );
+
   if ($succeeded) {
     $self->db->query(q{UPDATE users SET fail_count = 0, last_login_at = NOW(), last_login_ip = ? WHERE id = ?}, 
                      $ip, $user_id);
