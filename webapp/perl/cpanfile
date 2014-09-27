@@ -12,3 +12,5 @@ requires "Plack::Session";
 requires "Data::Dumper";
 requires "CHI";
 requires "Cache::FastMmap";
+requires "SQL::Abstract";
+requires "SQL::Abstract::Plugin::InsertMulti";

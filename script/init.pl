@@ -11,20 +11,6 @@ for(<DATA>) {
     $app->db->query(q{UPDATE users SET fail_count = ? WHERE id = ?}, $cnt, $id);
 }
 
-my $rows = $app->db->select_all(q{SELECT ip, succeeded FROM login_log ORDER BY id ASC});
-
-for my $row (@$rows) {
-    if ($row->{succeeded}) {
-        $app->db->query(q{DELETE FROM fail_ips WHERE ip = ?}, $row->{ip});
-    } else {
-        my $ip = $app->db->select_one(q{SELECT * FROM fail_ips WHERE ip = ?}, $row->{ip});
-        if ($ip) {
-            $app->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $row->{ip});
-        } else {
-            $app->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1)}, $row->{ip});
-        }
-    }
-}
 #my $rows = $app->db->select_all(q{SELECT id, fail_count FROM users WHERE fail_count > 0});
 #for my $row (@$rows) {
 #    print $row->{id}, "\t", $row->{fail_count}, "\n";

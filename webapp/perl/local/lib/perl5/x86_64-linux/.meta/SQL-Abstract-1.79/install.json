@@ -1,0 +1,1 @@
+{"target":"SQL::Abstract","name":"SQL::Abstract","dist":"SQL-Abstract-1.79","pathname":"R/RI/RIBASUSHI/SQL-Abstract-1.79.tar.gz","version":"1.79","provides":{"SQL::Abstract::Tree":{"file":"lib/SQL/Abstract/Tree.pm"},"SQL::Abstract":{"version":"1.79","file":"lib/SQL/Abstract.pm"},"SQL::Abstract::Test":{"file":"lib/SQL/Abstract/Test.pm"}}}
