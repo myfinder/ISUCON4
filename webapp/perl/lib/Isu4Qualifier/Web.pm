@@ -42,29 +42,12 @@ sub calculate_password_hash {
   sha256_hex($password . ':' . $salt);
 };
 
-sub user_locked {
-  my ($self, $user) = @_;
-  my $log = $self->db->select_row(
-    'SELECT COUNT(1) AS failures FROM login_log WHERE user_id = ? AND id > IFNULL((select id from login_log where user_id = ? AND succeeded = 1 ORDER BY id DESC LIMIT 1), 0)',
-    $user->{'id'}, $user->{'id'});
-
-  $self->config->{user_lock_threshold} <= $log->{failures};
-};
-
-sub ip_banned {
-  my ($self, $ip) = @_;
-  my $log = $self->db->select_row(
-    'SELECT COUNT(1) AS failures FROM login_log WHERE ip = ? AND id > IFNULL((select id from login_log where ip = ? AND succeeded = 1 ORDER BY id DESC LIMIT 1), 0)',
-    $ip, $ip);
-
-  $self->config->{ip_ban_threshold} <= $log->{failures};
-};
-
 sub attempt_login {
   my ($self, $login, $password, $ip) = @_;
   my $user = $self->db->select_row('SELECT * FROM users WHERE login = ?', $login);
+  my $fail_ip = $self->db->select_row('SELECT * FROM fail_ips WHERE ip = ?', $ip);
 
-  if ($self->ip_banned($ip)) {
+  if ($fail_ip && $self->config->{ip_ban_threshold} <= $fail_ip->{fail_count}) {
     $self->login_log(0, $login, $ip, $user ? $user->{id} : undef);
     return undef, 'banned';
   }
@@ -158,8 +141,14 @@ sub login_log {
   );
   if ($succeeded) {
     $self->db->query(q{UPDATE users SET fail_count = 0 WHERE id = ?}, $user_id);
+    $self->db->query(q{DELETE FROM fail_ips WHERE ip = ?}, $ip);
   } else {
     $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id);
+    if ($self->db->select_row(q{SELECT * FROM fail_ips WHERE ip = ?}, $ip)) {
+      $self->db->query(q{UPDATE fail_ips SET fail_count = fail_count + 1 WHERE ip = ?}, $ip);
+    } else {
+      $self->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1)}, $ip);
+    }
   }
 };
 
