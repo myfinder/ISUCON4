@@ -21,3 +21,16 @@ ISUCON4
 # ベンチマークの挙動
 
 * dummyのusersとlogin_logの登録を行なっている → login_log構造をいじるなら、init.shの直後に処理しないと不味い
+
+## ベンチマークでアクセスされるpathランキング
+
+```
+1632 path:/stylesheets/isucon-bank.css
+1632 path:/stylesheets/bootstrap.min.css
+1632 path:/stylesheets/bootflat.min.css
+1632 path:/images/isucon-bank.png
+1494 path:/
+ 816 path:/login
+ 138 path:/mypage
+   1 path:/report
+```
