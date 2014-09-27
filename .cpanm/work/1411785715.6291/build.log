@@ -1,0 +1,752 @@
+cpanm (App::cpanminus) 1.7011 on perl 5.020000 built for x86_64-linux
+Work directory is /home/isucon/.cpanm/work/1411785715.6291
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.26
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (6.98)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.67)
+--> Working on /home/isucon/webapp/perl/
+Entering /home/isucon/webapp/perl
+Configuring /home/isucon/webapp/perl
+-> OK
+Checking if you have Time::Piece 0 ... Yes (1.27)
+Checking if you have JSON::XS 0 ... Yes (3.01)
+Checking if you have Plack::Session 0 ... Yes (0.24)
+Checking if you have Kossy 0.19 ... Yes (0.38)
+Checking if you have DBD::mysql 0 ... Yes (4.028)
+Checking if you have Starman 0 ... Yes (0.4010)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have Digest::SHA 0 ... Yes (5.88)
+Checking if you have Starlet 0 ... No
+Checking if you have DBIx::Sunny 0 ... Yes (0.22)
+Checking if you have Data::Dumper 0 ... Yes (2.151)
+==> Found dependencies: Starlet
+Searching Starlet on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Starlet on cpanmetadb ...
+--> Working on Starlet
+Fetching http://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Starlet-0.24.tar.gz
+-> OK
+Unpacking Starlet-0.24.tar.gz
+Copying Starlet-0.24.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/K/KA/KAZUHO/Starlet-0.24.tar.gz
+Entering Starlet-0.24
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Configuring Starlet-0.24
+Running Makefile.PL
+Warning: prerequisite LWP::UserAgent 5.8 not found.
+Warning: prerequisite Parallel::Prefork 0.13 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Starlet
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Checking if you have Plack 0.992 ... Yes (1.0031)
+Checking if you have Test::More 0.88 ... Yes (1.001002)
+Checking if you have Server::Starter 0.06 ... No
+Checking if you have LWP::UserAgent 5.8 ... No
+Checking if you have Test::TCP 0.15 ... Yes (2.06)
+Checking if you have Parallel::Prefork 0.13 ... No
+==> Found dependencies: Server::Starter, LWP::UserAgent, Parallel::Prefork
+Searching Server::Starter on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Server::Starter on cpanmetadb ...
+--> Working on Server::Starter
+Fetching http://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Server-Starter-0.17.tar.gz
+-> OK
+Unpacking Server-Starter-0.17.tar.gz
+Copying Server-Starter-0.17.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/K/KA/KAZUHO/Server-Starter-0.17.tar.gz
+Entering Server-Starter-0.17
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Configuring Server-Starter-0.17
+Running Makefile.PL
+*** Module::AutoInstall version 1.03
+*** Checking for Perl dependencies...
+*** Since we're running under CPAN, I'll just let it take care
+    of the dependency's installation later.
+[Core Features]
+- Test::TCP       ...loaded. (2.00 >= 2.00)
+- Getopt::Long    ...loaded. (2.42)
+- List::MoreUtils ...loaded. (0.33)
+- Proc::Wait3     ...loaded. (0.04)
+- Scope::Guard    ...loaded. (0.20)
+*** Module::AutoInstall configuration finished.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Server::Starter
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Proc::Wait3 0 ... No
+Checking if you have Scope::Guard 0 ... No
+Checking if you have List::MoreUtils 0 ... No
+Checking if you have Test::TCP 2.00 ... Yes (2.06)
+Checking if you have Getopt::Long 0 ... Yes (2.42)
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+==> Found dependencies: Proc::Wait3, Scope::Guard, List::MoreUtils
+Searching Proc::Wait3 on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Proc::Wait3 on cpanmetadb ...
+--> Working on Proc::Wait3
+Fetching http://cpan.metacpan.org/authors/id/C/CT/CTILMES/Proc-Wait3-0.04.tar.gz
+-> OK
+Unpacking Proc-Wait3-0.04.tar.gz
+Copying Proc-Wait3-0.04.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/C/CT/CTILMES/Proc-Wait3-0.04.tar.gz
+Entering Proc-Wait3-0.04
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Proc-Wait3-0.04
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Proc::Wait3
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building Proc-Wait3-0.04
+cp Wait3.pm blib/lib/Proc/Wait3.pm
+Running Mkbootstrap for Proc::Wait3 ()
+chmod 644 Wait3.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  Wait3.xs > Wait3.xsc && mv Wait3.xsc Wait3.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.04\" -DXS_VERSION=\"0.04\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   Wait3.c
+rm -f blib/arch/auto/Proc/Wait3/Wait3.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector Wait3.o  -o blib/arch/auto/Proc/Wait3/Wait3.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/Proc/Wait3/Wait3.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- Wait3.bs blib/arch/auto/Proc/Wait3/Wait3.bs 644
+Running Mkbootstrap for Proc::Wait3 ()
+chmod 644 Wait3.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/auto/Proc/Wait3/Wait3.so
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/Proc/Wait3.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Proc-Wait3-0.04
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Proc-Wait3-0.04/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Proc-Wait3-0.04/install.json
+Searching Scope::Guard on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Scope::Guard on cpanmetadb ...
+--> Working on Scope::Guard
+Fetching http://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
+-> OK
+Unpacking Scope-Guard-0.20.tar.gz
+Copying Scope-Guard-0.20.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
+Entering Scope-Guard-0.20
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Scope-Guard-0.20
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Scope::Guard
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (1.001002)
+Building Scope-Guard-0.20
+cp lib/Scope/Guard.pm blib/lib/Scope/Guard.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Scope/Guard.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Scope-Guard-0.20
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Scope-Guard-0.20/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Scope-Guard-0.20/install.json
+Searching List::MoreUtils on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching List::MoreUtils on cpanmetadb ...
+--> Working on List::MoreUtils
+Fetching http://cpan.metacpan.org/authors/id/A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+-> OK
+Unpacking List-MoreUtils-0.33.tar.gz
+Copying List-MoreUtils-0.33.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+Entering List-MoreUtils-0.33
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.52 ... Yes (6.98)
+Checking if you have ExtUtils::CBuilder 0.27 ... Yes (0.280216)
+Configuring List-MoreUtils-0.33
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for List::MoreUtils
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.82 ... Yes (1.001002)
+Building List-MoreUtils-0.33
+cp lib/List/MoreUtils.pm blib/lib/List/MoreUtils.pm
+Running Mkbootstrap for List::MoreUtils ()
+chmod 644 MoreUtils.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  MoreUtils.xs > MoreUtils.xsc && mv MoreUtils.xsc MoreUtils.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.33\" -DXS_VERSION=\"0.33\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"  -DPERL_EXT MoreUtils.c
+rm -f blib/arch/auto/List/MoreUtils/MoreUtils.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector MoreUtils.o  -o blib/arch/auto/List/MoreUtils/MoreUtils.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/List/MoreUtils/MoreUtils.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- MoreUtils.bs blib/arch/auto/List/MoreUtils/MoreUtils.bs 644
+Running Mkbootstrap for List::MoreUtils ()
+chmod 644 MoreUtils.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/auto/List/MoreUtils/MoreUtils.so
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/List/MoreUtils.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed List-MoreUtils-0.33
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/List-MoreUtils-0.33/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/List-MoreUtils-0.33/install.json
+Building Server-Starter-0.17
+cp lib/Server/Starter.pm blib/lib/Server/Starter.pm
+cp start_server blib/script/start_server
+/home/isucon/.local/perl/bin/perl "-Iinc" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/start_server
+Installing /home/isucon/webapp/perl/local/lib/perl5/Server/Starter.pm
+Installing /home/isucon/webapp/perl/local/bin/start_server
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Server-Starter-0.17
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Server-Starter-0.17/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Server-Starter-0.17/install.json
+Searching LWP::UserAgent on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching LWP::UserAgent on cpanmetadb ...
+--> Working on LWP::UserAgent
+Fetching http://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
+-> OK
+Unpacking libwww-perl-6.08.tar.gz
+Copying libwww-perl-6.08.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
+Entering libwww-perl-6.08
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring libwww-perl-6.08
+Running Makefile.PL
+Can't connect: IO::Socket::INET: Bad hostname 'isucon4dev:33053'
+Test server timeout
+The can-we-talk-to-ourself test failed.
+Warning: prerequisite File::Listing 6 not found.
+Warning: prerequisite HTML::Entities 0 not found.
+Warning: prerequisite HTML::HeadParser 0 not found.
+Warning: prerequisite HTTP::Cookies 6 not found.
+Warning: prerequisite HTTP::Daemon 6 not found.
+Warning: prerequisite HTTP::Negotiate 6 not found.
+Warning: prerequisite Net::HTTP 6.07 not found.
+Warning: prerequisite WWW::RobotRules 6 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for LWP
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTTP::Request::Common 6 ... Yes (6.04)
+Checking if you have WWW::RobotRules 6 ... No
+Checking if you have Encode 2.12 ... Yes (2.60)
+Checking if you have HTML::Entities 0 ... No
+Checking if you have HTTP::Daemon 6 ... No
+Checking if you have Encode::Locale 0 ... Yes (1.03)
+Checking if you have IO::Socket 0 ... Yes (1.37)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have HTTP::Status 6 ... Yes (6.03)
+Checking if you have File::Listing 6 ... No
+Checking if you have URI 1.10 ... Yes (1.64)
+Checking if you have HTTP::Request 6 ... Yes (6.00)
+Checking if you have Digest::MD5 0 ... Yes (2.53)
+Checking if you have HTTP::Cookies 6 ... No
+Checking if you have Net::HTTP 6.07 ... No
+Checking if you have Net::FTP 2.58 ... Yes (2.79)
+Checking if you have HTTP::Response 6 ... Yes (6.04)
+Checking if you have HTTP::Negotiate 6 ... No
+Checking if you have URI::Escape 0 ... Yes (3.31)
+Checking if you have HTTP::Date 6 ... Yes (6.02)
+Checking if you have LWP::MediaTypes 6 ... Yes (6.02)
+Checking if you have MIME::Base64 2.1 ... Yes (3.14)
+Checking if you have HTML::HeadParser 0 ... No
+Checking if you have IO::Select 0 ... Yes (1.22)
+==> Found dependencies: WWW::RobotRules, HTML::Entities, HTTP::Daemon, File::Listing, HTTP::Cookies, Net::HTTP, HTTP::Negotiate, HTML::HeadParser
+Searching WWW::RobotRules on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching WWW::RobotRules on cpanmetadb ...
+--> Working on WWW::RobotRules
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+-> OK
+Unpacking WWW-RobotRules-6.02.tar.gz
+Copying WWW-RobotRules-6.02.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+Entering WWW-RobotRules-6.02
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring WWW-RobotRules-6.02
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for WWW::RobotRules
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have AnyDBM_File 0 ... Yes (1.01)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have URI 1.10 ... Yes (1.64)
+Checking if you have Fcntl 0 ... Yes (1.11)
+Building WWW-RobotRules-6.02
+cp lib/WWW/RobotRules/AnyDBM_File.pm blib/lib/WWW/RobotRules/AnyDBM_File.pm
+cp lib/WWW/RobotRules.pm blib/lib/WWW/RobotRules.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/WWW/RobotRules.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/WWW/RobotRules/AnyDBM_File.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed WWW-RobotRules-6.02
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/WWW-RobotRules-6.02/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/WWW-RobotRules-6.02/install.json
+Searching HTML::Entities on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTML::Entities on cpanmetadb ...
+--> Working on HTML::Entities
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+-> OK
+Unpacking HTML-Parser-3.71.tar.gz
+Copying HTML-Parser-3.71.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+Entering HTML-Parser-3.71
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring HTML-Parser-3.71
+Running Makefile.PL
+Warning: prerequisite HTML::Tagset 3 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Parser
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTML::Tagset 3 ... No
+Checking if you have XSLoader 0 ... Yes (0.17)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+==> Found dependencies: HTML::Tagset
+Searching HTML::Tagset on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTML::Tagset on cpanmetadb ...
+--> Working on HTML::Tagset
+Fetching http://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+-> OK
+Unpacking HTML-Tagset-3.20.tar.gz
+Copying HTML-Tagset-3.20.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+Entering HTML-Tagset-3.20
+Checking configure dependencies from META.yml
+Configuring HTML-Tagset-3.20
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Tagset
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building HTML-Tagset-3.20
+cp Tagset.pm blib/lib/HTML/Tagset.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTML/Tagset.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed HTML-Tagset-3.20
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTML-Tagset-3.20/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTML-Tagset-3.20/install.json
+Building HTML-Parser-3.71
+cp Parser.pm blib/lib/HTML/Parser.pm
+cp lib/HTML/Filter.pm blib/lib/HTML/Filter.pm
+cp lib/HTML/LinkExtor.pm blib/lib/HTML/LinkExtor.pm
+cp lib/HTML/PullParser.pm blib/lib/HTML/PullParser.pm
+cp lib/HTML/TokeParser.pm blib/lib/HTML/TokeParser.pm
+cp lib/HTML/Entities.pm blib/lib/HTML/Entities.pm
+cp lib/HTML/HeadParser.pm blib/lib/HTML/HeadParser.pm
+Running Mkbootstrap for HTML::Parser ()
+chmod 644 Parser.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap -typemap typemap  Parser.xs > Parser.xsc && mv Parser.xsc Parser.c
+/home/isucon/.local/perl/bin/perl mkhctype >hctype.h
+/home/isucon/.local/perl/bin/perl mkpfunc >pfunc.h
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"3.71\" -DXS_VERSION=\"3.71\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"  -DMARKED_SECTION Parser.c
+rm -f blib/arch/auto/HTML/Parser/Parser.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector Parser.o  -o blib/arch/auto/HTML/Parser/Parser.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/HTML/Parser/Parser.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- Parser.bs blib/arch/auto/HTML/Parser/Parser.bs 644
+Running Mkbootstrap for HTML::Parser ()
+chmod 644 Parser.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/auto/HTML/Parser/Parser.so
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/PullParser.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/HeadParser.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/Parser.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/LinkExtor.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/Entities.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/Filter.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/HTML/TokeParser.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed HTML-Parser-3.71
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTML-Parser-3.71/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTML-Parser-3.71/install.json
+Searching HTTP::Daemon on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTTP::Daemon on cpanmetadb ...
+--> Working on HTTP::Daemon
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+-> OK
+Unpacking HTTP-Daemon-6.01.tar.gz
+Copying HTTP-Daemon-6.01.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+Entering HTTP-Daemon-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring HTTP-Daemon-6.01
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Daemon
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Socket 0 ... Yes (1.37)
+Checking if you have Sys::Hostname 0 ... Yes (1.18)
+Checking if you have HTTP::Request 6 ... Yes (6.00)
+Checking if you have LWP::MediaTypes 6 ... Yes (6.02)
+Checking if you have HTTP::Date 6 ... Yes (6.02)
+Checking if you have HTTP::Response 6 ... Yes (6.04)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have HTTP::Status 6 ... Yes (6.03)
+Building HTTP-Daemon-6.01
+cp lib/HTTP/Daemon.pm blib/lib/HTTP/Daemon.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTTP/Daemon.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed HTTP-Daemon-6.01
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Daemon-6.01/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Daemon-6.01/install.json
+Searching File::Listing on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching File::Listing on cpanmetadb ...
+--> Working on File::Listing
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+-> OK
+Unpacking File-Listing-6.04.tar.gz
+Copying File-Listing-6.04.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+Entering File-Listing-6.04
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring File-Listing-6.04
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::Listing
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have HTTP::Date 6 ... Yes (6.02)
+Building File-Listing-6.04
+cp lib/File/Listing.pm blib/lib/File/Listing.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/File/Listing.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed File-Listing-6.04
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/File-Listing-6.04/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/File-Listing-6.04/install.json
+Searching HTTP::Cookies on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTTP::Cookies on cpanmetadb ...
+--> Working on HTTP::Cookies
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+-> OK
+Unpacking HTTP-Cookies-6.01.tar.gz
+Copying HTTP-Cookies-6.01.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+Entering HTTP-Cookies-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring HTTP-Cookies-6.01
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Cookies
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTTP::Headers::Util 6 ... Yes (6.03)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have Time::Local 0 ... Yes (1.2300)
+Checking if you have HTTP::Date 6 ... Yes (6.02)
+Building HTTP-Cookies-6.01
+cp lib/HTTP/Cookies/Microsoft.pm blib/lib/HTTP/Cookies/Microsoft.pm
+cp lib/HTTP/Cookies/Netscape.pm blib/lib/HTTP/Cookies/Netscape.pm
+cp lib/HTTP/Cookies.pm blib/lib/HTTP/Cookies.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTTP/Cookies.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTTP/Cookies/Netscape.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTTP/Cookies/Microsoft.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed HTTP-Cookies-6.01
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Cookies-6.01/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Cookies-6.01/install.json
+Searching Net::HTTP on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Net::HTTP on cpanmetadb ...
+--> Working on Net::HTTP
+Fetching http://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
+-> OK
+Unpacking Net-HTTP-6.07.tar.gz
+Copying Net-HTTP-6.07.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
+Entering Net-HTTP-6.07
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Net-HTTP-6.07
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Net::HTTP
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have URI 0 ... Yes (1.64)
+Checking if you have IO::Select 0 ... Yes (1.22)
+Checking if you have Compress::Raw::Zlib 0 ... Yes (2.065)
+Checking if you have IO::Socket::INET 0 ... Yes (1.35)
+Checking if you have IO::Compress::Gzip 0 ... Yes (2.064)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building Net-HTTP-6.07
+cp lib/Net/HTTP/NB.pm blib/lib/Net/HTTP/NB.pm
+cp lib/Net/HTTP/Methods.pm blib/lib/Net/HTTP/Methods.pm
+cp lib/Net/HTTP.pm blib/lib/Net/HTTP.pm
+cp lib/Net/HTTPS.pm blib/lib/Net/HTTPS.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Net/HTTPS.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Net/HTTP.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Net/HTTP/Methods.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Net/HTTP/NB.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Net-HTTP-6.07
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Net-HTTP-6.07/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Net-HTTP-6.07/install.json
+Searching HTTP::Negotiate on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTTP::Negotiate on cpanmetadb ...
+--> Working on HTTP::Negotiate
+Fetching http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+-> OK
+Unpacking HTTP-Negotiate-6.01.tar.gz
+Copying HTTP-Negotiate-6.01.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+Entering HTTP-Negotiate-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring HTTP-Negotiate-6.01
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Negotiate
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTTP::Headers 6 ... Yes (6.05)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building HTTP-Negotiate-6.01
+cp lib/HTTP/Negotiate.pm blib/lib/HTTP/Negotiate.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/HTTP/Negotiate.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed HTTP-Negotiate-6.01
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Negotiate-6.01/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/HTTP-Negotiate-6.01/install.json
+Searching HTML::HeadParser on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching HTML::HeadParser on cpanmetadb ...
+Already tried HTML-Parser-3.71. Skipping.
+Building libwww-perl-6.08
+cp lib/LWP/Protocol/cpan.pm blib/lib/LWP/Protocol/cpan.pm
+cp lib/LWP/Protocol/nogo.pm blib/lib/LWP/Protocol/nogo.pm
+cp lib/LWP.pm blib/lib/LWP.pm
+cp lib/LWP/MemberMixin.pm blib/lib/LWP/MemberMixin.pm
+cp lib/LWP/Authen/Digest.pm blib/lib/LWP/Authen/Digest.pm
+cp lwptut.pod blib/lib/lwptut.pod
+cp lib/LWP/DebugFile.pm blib/lib/LWP/DebugFile.pm
+cp lib/LWP/Protocol/loopback.pm blib/lib/LWP/Protocol/loopback.pm
+cp lib/LWP/UserAgent.pm blib/lib/LWP/UserAgent.pm
+cp lib/LWP/Protocol/http.pm blib/lib/LWP/Protocol/http.pm
+cp lib/LWP/Protocol.pm blib/lib/LWP/Protocol.pm
+cp lib/LWP/Protocol/GHTTP.pm blib/lib/LWP/Protocol/GHTTP.pm
+cp lib/LWP/ConnCache.pm blib/lib/LWP/ConnCache.pm
+cp lwpcook.pod blib/lib/lwpcook.pod
+cp lib/LWP/Protocol/data.pm blib/lib/LWP/Protocol/data.pm
+cp lib/LWP/Protocol/gopher.pm blib/lib/LWP/Protocol/gopher.pm
+cp lib/LWP/Protocol/mailto.pm blib/lib/LWP/Protocol/mailto.pm
+cp lib/LWP/RobotUA.pm blib/lib/LWP/RobotUA.pm
+cp lib/LWP/Debug.pm blib/lib/LWP/Debug.pm
+cp lib/LWP/Simple.pm blib/lib/LWP/Simple.pm
+cp lib/LWP/Authen/Ntlm.pm blib/lib/LWP/Authen/Ntlm.pm
+cp lib/LWP/Protocol/nntp.pm blib/lib/LWP/Protocol/nntp.pm
+cp lib/LWP/Protocol/file.pm blib/lib/LWP/Protocol/file.pm
+cp lib/LWP/Authen/Basic.pm blib/lib/LWP/Authen/Basic.pm
+cp lib/LWP/Protocol/ftp.pm blib/lib/LWP/Protocol/ftp.pm
+cp bin/lwp-download blib/script/lwp-download
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-download
+cp bin/lwp-request blib/script/lwp-request
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-request
+cp bin/lwp-dump blib/script/lwp-dump
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-dump
+cp bin/lwp-mirror blib/script/lwp-mirror
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-mirror
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/lwptut.pod
+Installing /home/isucon/webapp/perl/local/lib/perl5/lwpcook.pod
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/ConnCache.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/UserAgent.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/MemberMixin.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Debug.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Simple.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/RobotUA.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/DebugFile.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/ftp.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/nogo.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/nntp.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/mailto.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/cpan.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/data.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/loopback.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/http.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/file.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/gopher.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Protocol/GHTTP.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Authen/Basic.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Authen/Ntlm.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/LWP/Authen/Digest.pm
+Installing /home/isucon/webapp/perl/local/bin/lwp-mirror
+Installing /home/isucon/webapp/perl/local/bin/lwp-request
+Installing /home/isucon/webapp/perl/local/bin/lwp-dump
+Installing /home/isucon/webapp/perl/local/bin/lwp-download
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed libwww-perl-6.08
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/libwww-perl-6.08/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/libwww-perl-6.08/install.json
+Searching Parallel::Prefork on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Parallel::Prefork on cpanmetadb ...
+--> Working on Parallel::Prefork
+Fetching http://cpan.metacpan.org/authors/id/K/KA/KAZUHO/Parallel-Prefork-0.17.tar.gz
+-> OK
+Unpacking Parallel-Prefork-0.17.tar.gz
+Copying Parallel-Prefork-0.17.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/K/KA/KAZUHO/Parallel-Prefork-0.17.tar.gz
+Entering Parallel-Prefork-0.17
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Configuring Parallel-Prefork-0.17
+Running Makefile.PL
+Warning: prerequisite Signal::Mask 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Parallel::Prefork
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Proc::Wait3 0.03 ... Yes (0.04)
+Checking if you have List::MoreUtils 0 ... Yes (0.33)
+Checking if you have Scope::Guard 0 ... Yes (0.20)
+Checking if you have Test::Requires 0 ... Yes (0.08)
+Checking if you have Class::Accessor::Lite 0.04 ... Yes (0.06)
+Checking if you have Test::SharedFork 0 ... Yes (0.28)
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Checking if you have Signal::Mask 0 ... No
+==> Found dependencies: Signal::Mask
+Searching Signal::Mask on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Signal::Mask on cpanmetadb ...
+--> Working on Signal::Mask
+Fetching http://cpan.metacpan.org/authors/id/L/LE/LEONT/Signal-Mask-0.008.tar.gz
+-> OK
+Unpacking Signal-Mask-0.008.tar.gz
+Copying Signal-Mask-0.008.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/L/LE/LEONT/Signal-Mask-0.008.tar.gz
+Entering Signal-Mask-0.008
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.98)
+Configuring Signal-Mask-0.008
+Running Makefile.PL
+Warning: prerequisite IPC::Signal 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Signal::Mask
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have POSIX 0 ... Yes (1.38_03)
+Checking if you have IPC::Signal 0 ... No
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have warnings 0 ... Yes (1.23)
+==> Found dependencies: IPC::Signal
+Searching IPC::Signal on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching IPC::Signal on cpanmetadb ...
+--> Working on IPC::Signal
+Fetching http://cpan.metacpan.org/authors/id/R/RO/ROSCH/IPC-Signal-1.00.tar.gz
+-> OK
+Unpacking IPC-Signal-1.00.tar.gz
+Copying IPC-Signal-1.00.tar.gz to /home/isucon/webapp/perl/local/cache/authors/id/R/RO/ROSCH/IPC-Signal-1.00.tar.gz
+Entering IPC-Signal-1.00
+META.yml/json not found. Creating skeleton for it.
+Configuring IPC-Signal-1.00
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for IPC::Signal
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building IPC-Signal-1.00
+cp Signal.pm blib/lib/IPC/Signal.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/IPC/Signal.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed IPC-Signal-1.00
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/IPC-Signal-1.00/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/IPC-Signal-1.00/install.json
+Building Signal-Mask-0.008
+cp lib/Signal/Mask.pm blib/lib/Signal/Mask.pm
+cp lib/Signal/Pending.pm blib/lib/Signal/Pending.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Signal/Mask.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Signal/Pending.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Signal-Mask-0.008
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Signal-Mask-0.008/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Signal-Mask-0.008/install.json
+Building Parallel-Prefork-0.17
+cp lib/Parallel/Prefork/SpareWorkers.pm blib/lib/Parallel/Prefork/SpareWorkers.pm
+cp lib/Parallel/Prefork/SpareWorkers/Scoreboard.pm blib/lib/Parallel/Prefork/SpareWorkers/Scoreboard.pm
+cp lib/Parallel/Prefork.pm blib/lib/Parallel/Prefork.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Parallel/Prefork.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Parallel/Prefork/SpareWorkers.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Parallel/Prefork/SpareWorkers/Scoreboard.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Parallel-Prefork-0.17
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Parallel-Prefork-0.17/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Parallel-Prefork-0.17/install.json
+Building Starlet-0.24
+cp lib/Starlet/Server.pm blib/lib/Starlet/Server.pm
+cp lib/Plack/Handler/Starlet.pm blib/lib/Plack/Handler/Starlet.pm
+cp lib/Starlet.pm blib/lib/Starlet.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Starlet.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Starlet/Server.pm
+Installing /home/isucon/webapp/perl/local/lib/perl5/Plack/Handler/Starlet.pm
+Appending installation info to /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Starlet-0.24
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Starlet-0.24/MYMETA.json
+Installing /home/isucon/webapp/perl/local/lib/perl5/x86_64-linux/.meta/Starlet-0.24/install.json
+<== Installed dependencies for /home/isucon/webapp/perl/. Finishing.
+17 distributions installed
