@@ -5,7 +5,7 @@ ISUCON4
 
 # 改善候補
 
-## sessionストア
+## sessionストアをmemdとかにする
 
 ```
 store => Plack::Session::Store::File->new(
