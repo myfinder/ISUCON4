@@ -69,7 +69,7 @@ sub attempt_login {
     return undef, 'banned';
   }
 
-  if ($self->user_locked($user)) {
+  if ($self->config->{user_lock_threshold} <= $user->{fail_count}) {
     $self->login_log(0, $login, $ip, $user->{id});
     return undef, 'locked';
   }
@@ -156,6 +156,11 @@ sub login_log {
     'INSERT INTO login_log (`created_at`, `user_id`, `login`, `ip`, `succeeded`) VALUES (NOW(),?,?,?,?)',
     $user_id, $login, $ip, ($succeeded ? 1 : 0)
   );
+  if ($succeeded) {
+    $self->db->query(q{UPDATE users SET fail_count = 0 WHERE id = ?}, $user_id);
+  } else {
+    $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id);
+  }
 };
 
 sub set_flash {
