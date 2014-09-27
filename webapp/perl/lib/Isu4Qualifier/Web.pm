@@ -103,11 +103,7 @@ sub login_log {
     $self->db->query(q{DELETE FROM fail_ips WHERE ip = ?}, $ip);
   } else {
     $self->db->query(q{UPDATE users SET fail_count = fail_count + 1 WHERE id = ?}, $user_id);
-    if ($self->db->select_row(q{SELECT * FROM fail_ips WHERE ip = ?}, $ip)) {
-      $self->db->query(q{UPDATE fail_ips SET fail_count = fail_count + 1 WHERE ip = ?}, $ip);
-    } else {
-      $self->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1)}, $ip);
-    }
+    $self->db->query(q{INSERT INTO fail_ips(ip, fail_count) VALUES(?, 1) ON DUPLICATE KEY UPDATE fail_count = fail_count + 1}, $ip);
   }
 };
 
