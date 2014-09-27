@@ -1,0 +1,13 @@
+[26-Sep-2014 13:07:35] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:35] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:36] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:36] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:38] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:38] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:41] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:41] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:58] NOTICE: fpm is running, pid 7538
+[26-Sep-2014 13:07:58] NOTICE: ready to handle connections
+[26-Sep-2014 13:08:30] WARNING: [pool www] server reached pm.max_children setting (10), consider raising it
+[26-Sep-2014 13:12:11] NOTICE: Terminating ...
+[26-Sep-2014 13:12:11] NOTICE: exiting, bye-bye!

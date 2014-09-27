@@ -1,0 +1,15 @@
+[user]                             
+    name = isucon-taro
+    email = tech@fout.jp
+
+[gc]
+    auto = 1
+
+[color]
+    ui = auto
+
+[alias]
+    co = checkout 
+    ci = commit
+    st = status
+    br = branch
