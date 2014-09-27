@@ -1,0 +1,17 @@
+Changes
+INSTALL
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+lib/Log/Any.pm
+lib/Log/Any/Adapter/Core.pm
+lib/Log/Any/Adapter/Null.pm
+lib/Log/Any/Adapter/Test.pm
+lib/Log/Any/Test.pm
+t/errors.t
+t/log-any-test.t
+t/release-backcompat.t
+t/valid-methods.t
+tidyall.ini

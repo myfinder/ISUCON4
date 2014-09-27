@@ -1,0 +1,144 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman3dir' => '',
+         'installsiteman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'install_sets' => {},
+         'program_name' => undef,
+         'module_name' => 'Test::Pod',
+         'needs_compiler' => '',
+         'mymetafile' => 'MYMETA.yml',
+         'has_config_data' => undef,
+         'use_tap_harness' => 0,
+         'config' => undef,
+         'test_requires' => {},
+         'prefix' => undef,
+         'pollute' => undef,
+         'mymetafile2' => 'MYMETA.json',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'extra_compiler_flags' => [],
+         'meta_add' => {},
+         'build_bat' => 0,
+         'recommends' => {},
+         'release_status' => 'stable',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'pureperl_only' => 0,
+         'dist_version_from' => 'lib/Test/Pod.pm',
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'metafile2' => 'META.json',
+         'cpan_client' => 'cpan',
+         'dist_name' => 'Test-Pod',
+         'dist_author' => undef,
+         'installdirs' => 'site',
+         'test_files' => undef,
+         'allow_mb_mismatch' => 0,
+         'scripts' => undef,
+         'dist_abstract' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'conflicts' => {},
+         'pm_files' => undef,
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'debugger' => undef,
+         'create_license' => undef,
+         'destdir' => undef,
+         'include_dirs' => [],
+         'use_rcfile' => 1,
+         'PL_files' => undef,
+         'verbose' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411787845.10716/Test-Pod-1.48',
+         'install_path' => {},
+         'install_base_relpaths' => {},
+         'extra_manify_args' => undef,
+         'extra_linker_flags' => [],
+         'create_readme' => undef,
+         'quiet' => undef,
+         'blib' => 'blib',
+         'allow_pureperl' => 0,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'mb_version' => '0.421',
+         'dist_suffix' => undef,
+         'config_dir' => '_build',
+         'c_source' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'dist_version' => '1.48',
+         'recursive_test_files' => undef,
+         'xs_files' => undef,
+         'auto_configure_requires' => 1,
+         'prefix_relpaths' => {},
+         'bundle_inc_preload' => [],
+         'debug' => undef,
+         'build_script' => 'Build',
+         'share_dir' => undef,
+         'license' => 'perl',
+         'dynamic_config' => 1,
+         'configure_requires' => {
+                                   'Module::Build' => '0.30'
+                                 },
+         'create_makefile_pl' => 'traditional',
+         'sign' => undef,
+         'bundle_inc' => [],
+         'recurse_into' => [],
+         'base_dir' => '/home/isucon/.cpanm/work/1411787845.10716/Test-Pod-1.48',
+         'meta_merge' => {
+                           'resources' => {
+                                            'repository' => 'http://github.com/theory/test-pod/tree/',
+                                            'bugtracker' => 'http://github.com/theory/test-pod/issues/',
+                                            'homepage' => 'http://search.cpan.org/dist/Test-Pod/'
+                                          }
+                         },
+         'get_options' => {},
+         'build_requires' => {
+                               'Test::More' => '0.62',
+                               'File::Spec' => 0,
+                               'Pod::Simple' => '3.05'
+                             },
+         'metafile' => 'META.yml',
+         'html_css' => '',
+         'tap_harness_args' => {},
+         'pod_files' => undef,
+         'script_files' => undef,
+         'autosplit' => undef,
+         'original_prefix' => {},
+         'requires' => {
+                         'Pod::Simple' => '3.05',
+                         'Test::Builder::Tester' => '1.02',
+                         'File::Find' => 0,
+                         'Test::More' => '0.62'
+                       },
+         'create_packlist' => 1,
+         'build_class' => 'Module::Build',
+         'magic_number' => undef
+       }
+     ];
+$x; }

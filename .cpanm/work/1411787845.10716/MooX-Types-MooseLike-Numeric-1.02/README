@@ -1,0 +1,28 @@
+NAME
+    MooX::Types::MooseLike::Numeric - Moo types for numbers
+
+SYNOPSIS
+        package MyPackage;
+        use Moo;
+        use MooX::Types::MooseLike::Numeric qw(PositiveInt);
+
+        has "daily_breathes" => (
+            isa => PositiveInt
+        );
+
+DESCRIPTION
+    adapted from MooseX::Types::Common::Numeric
+
+TYPES (subroutines)
+    Available types are listed below.
+
+    PositiveNum
+    PositiveOrZeroNum
+    PositiveInt
+    PositiveOrZeroInt
+    NegativeNum
+    NegativeOrZeroNum
+    NegativeInt
+    NegativeOrZeroInt
+    SingleDigit
+

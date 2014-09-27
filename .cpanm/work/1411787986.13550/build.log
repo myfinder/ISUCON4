@@ -1,0 +1,46 @@
+cpanm (App::cpanminus) 1.7011 on perl 5.020000 built for x86_64-linux
+Work directory is /home/isucon/.cpanm/work/1411787986.13550
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.26
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (6.98)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.67)
+--> Working on /home/isucon/webapp/perl/
+Entering /home/isucon/webapp/perl
+Configuring /home/isucon/webapp/perl
+-> OK
+Checking if you have Cache::Fast 0 ... No
+Checking if you have Starlet 0 ... Yes (0.24)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have Plack::Session 0 ... Yes (0.24)
+Checking if you have DBD::mysql 0 ... Yes (4.028)
+Checking if you have DBIx::Sunny 0 ... Yes (0.22)
+Checking if you have CHI 0 ... Yes (0.58)
+Checking if you have Time::Piece 0 ... Yes (1.27)
+Checking if you have Kossy 0.19 ... Yes (0.38)
+Checking if you have Starman 0 ... Yes (0.4010)
+Checking if you have JSON::XS 0 ... Yes (3.01)
+Checking if you have Data::Dumper 0 ... Yes (2.151)
+Checking if you have Digest::SHA 0 ... Yes (5.88)
+==> Found dependencies: Cache::Fast
+Searching Cache::Fast on mirror index /home/isucon/webapp/perl/local/cache/modules/02packages.details.txt ...
+Searching Cache::Fast on cpanmetadb ...
+-> FAIL Finding Cache::Fast on cpanmetadb failed.
+Searching Cache::Fast (0) on metacpan ...
+! Could not find a release matching Cache::Fast (0) on MetaCPAN.
+Searching Cache::Fast on mirror http://cpan.metacpan.org ...
+Downloading index file http://cpan.metacpan.org/modules/02packages.details.txt.gz ...
+-> FAIL Finding Cache::Fast (0) on mirror http://cpan.metacpan.org failed.
+Searching Cache::Fast on mirror http://backpan.perl.org ...
+Downloading index file http://backpan.perl.org/modules/02packages.details.txt.gz ...
+-> FAIL Finding Cache::Fast (0) on mirror http://backpan.perl.org failed.
+-> FAIL Couldn't find module or a distribution Cache::Fast
+-> FAIL Installing the dependencies failed: Module 'Cache::Fast' is not installed
+-> FAIL Bailing out the installation for /home/isucon/webapp/perl/.

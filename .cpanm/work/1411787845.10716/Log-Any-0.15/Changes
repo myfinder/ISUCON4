@@ -1,0 +1,93 @@
+Revision history for Log-Any
+
+** denotes an incompatible change
+
+0.15  Apr 10, 2013
+
+* Fixes
+  - Hide 'package Log::Any::Adapter' from PAUSE/Module::Metadata - miyagawa
+
+0.14  Aug 31, 2011
+
+* Fixes
+  - Fix version number in Log/Any.pm - Stephen Thirlwall
+
+0.13  Aug 2, 2011
+
+* Fixes
+  - Fix typo in lib/Log/Any/Adapter/Test.pm - RT #69850 - Stephen Thirlwall
+
+0.12  Mar 23, 2011
+
+* Fixes
+  - Return false from null adapter is_xxx methods - RT #64164 - Chip Salzenberg
+  - Eliminate 'subroutine redefined' warning in case Log::Any::Adapter loaded before
+    Log::Any::Test
+
+* Implementation
+  - Migrate to Dist::Zilla
+
+0.11  Feb 12, 2010
+
+* Improvements
+  - Add trace level - suggested by Szymon Swierkosz
+
+0.10  Jan 5, 2010
+
+* Fixes
+  - Fix Log::Any::Core to support references in printf-style methods
+
+0.09  Jan 5, 2010
+
+* Improvements
+  - Convert undef to string "<undef>" in printf-style methods - RT #53398, suggested by Steven Haryanto
+
+0.08  Dec 15, 2009
+
+* Fixes
+  - Fix Log::Any::Test to support full logging API (aliases and printf methods)
+
+0.07  Dec 7, 2009
+
+* Implementation
+  - Depend on Test::Simple rather than Test::More
+
+* Improvements
+  - Add Log::Any::Test, to aid in testing code that uses Log::Any
+
+0.06  Oct 31, 2009
+
+* Fixes
+  - Implement Log::Any->set_adapter again for backward compatibility with 0.04 and earlier
+
+0.05  Oct 27, 2009
+
+* Implementation
+  - ** Strip Log::Any down to a relative minimum, so as to keep it stable and
+    unchanging. Move everything else to Log::Any::Adapter.
+
+0.04  Sep 3, 2009
+
+* Fixes
+  - Replace Test::Deep::cmp_deeply with an internal version to avoid Test::Deep dependency
+
+0.03  Jul 17, 2009
+
+* Improvements
+  - Eliminated extra '::Log' from adapter names, e.g. Log::Any::Adapter::Log::Dispatch is
+    now Log::Any::Adapter::Dispatch. The long name was properly descriptive but was making
+    me wince every time.
+
+0.02  Jul 14, 2009
+
+* Fixes
+  - Fix logging aliases like warn => warning
+
+* Implementation
+  - Eliminate unnecessary Test/InternalOnly.pm class
+  - Precompute alias and method lists like Log::Any->logging_methods
+
+0.01  Jul 11, 2009
+
+- Initial version
+

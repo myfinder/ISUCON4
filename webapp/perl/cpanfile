@@ -10,3 +10,5 @@ requires "Starman";
 requires "Starlet";
 requires "Plack::Session";
 requires "Data::Dumper";
+requires "CHI";
+requires "Cache::FastMmap";
