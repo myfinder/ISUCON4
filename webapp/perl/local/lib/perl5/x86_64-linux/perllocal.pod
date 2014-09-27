@@ -1472,7 +1472,11 @@ C<EXE_FILES: >
 
 =back
 
+<<<<<<< HEAD
 =head2 Sat Sep 27 03:12:03 2014: C<Module> L<Algorithm::Diff|Algorithm::Diff>
+=======
+=head2 Sat Sep 27 03:17:29 2014: C<Module> L<Test::Fatal|Test::Fatal>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
 
 =over 4
 
@@ -1486,73 +1490,11 @@ C<LINKTYPE: dynamic>
 
 =item *
 
+<<<<<<< HEAD
 C<VERSION: 1.1902>
-
-=item *
-
-C<EXE_FILES: >
-
-=back
-
-=head2 Sat Sep 27 03:12:03 2014: C<Module> L<Text::Diff|Text::Diff>
-
-=over 4
-
-=item *
-
-C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
-
-=item *
-
-C<LINKTYPE: dynamic>
-
-=item *
-
-C<VERSION: 1.41>
-
-=item *
-
-C<EXE_FILES: >
-
-=back
-
-=head2 Sat Sep 27 03:12:23 2014: C<Module> L<Capture::Tiny|Capture::Tiny>
-
-=over 4
-
-=item *
-
-C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
-
-=item *
-
-C<LINKTYPE: dynamic>
-
-=item *
-
-C<VERSION: 0.25>
-
-=item *
-
-C<EXE_FILES: >
-
-=back
-
-=head2 Sat Sep 27 03:12:27 2014: C<Module> L<Test::Fatal|Test::Fatal>
-
-=over 4
-
-=item *
-
-C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
-
-=item *
-
-C<LINKTYPE: dynamic>
-
-=item *
-
+=======
 C<VERSION: 0.013>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
 
 =item *
 
@@ -1560,7 +1502,596 @@ C<EXE_FILES: >
 
 =back
 
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:03 2014: C<Module> L<Text::Diff|Text::Diff>
+=======
+=head2 Sat Sep 27 03:17:32 2014: C<Module> L<Sub::Exporter::Progressive|Sub::Exporter::Progressive>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 1.41>
+=======
+C<VERSION: 0.001011>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:23 2014: C<Module> L<Capture::Tiny|Capture::Tiny>
+=======
+=head2 Sat Sep 27 03:17:32 2014: C<Module> L<Devel::GlobalDestruction|Devel::GlobalDestruction>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.25>
+=======
+C<VERSION: 0.13>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:27 2014: C<Module> L<Test::Fatal|Test::Fatal>
+=======
+=head2 Sat Sep 27 03:17:35 2014: C<Module> L<Class::Method::Modifiers|Class::Method::Modifiers>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.013>
+=======
+C<VERSION: 2.11>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
 =head2 Sat Sep 27 03:12:34 2014: C<Module> L<Dist::CheckConflicts|Dist::CheckConflicts>
+=======
+=head2 Sat Sep 27 03:17:37 2014: C<Module> L<Role::Tiny|Role::Tiny>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.11>
+=======
+C<VERSION: 1.003003>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:37 2014: C<Module> L<Module::Implementation|Module::Implementation>
+=======
+=head2 Sat Sep 27 03:17:39 2014: C<Module> L<ExtUtils::Depends|ExtUtils::Depends>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.09>
+=======
+C<VERSION: 0.401>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:39 2014: C<Module> L<Package::Stash::XS|Package::Stash::XS>
+=======
+=head2 Sat Sep 27 03:17:41 2014: C<Module> L<B::Hooks::OP::Check|B::Hooks::OP::Check>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.28>
+=======
+C<VERSION: 0.19>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:41 2014: C<Module> L<Package::Stash|Package::Stash>
+=======
+=head2 Sat Sep 27 03:17:43 2014: C<Module> L<bareword::filehandles|bareword::filehandles>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.37>
+
+=item *
+
+C<EXE_FILES: bin/package-stash-conflicts>
+
+=back
+
+=head2 Sat Sep 27 03:12:45 2014: C<Module> L<Variable::Magic|Variable::Magic>
+=======
+C<VERSION: 0.003>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:17:45 2014: C<Module> L<indirect|indirect>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.54>
+=======
+C<VERSION: 0.32>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:47 2014: C<Module> L<Sub::Exporter::Progressive|Sub::Exporter::Progressive>
+=======
+=head2 Sat Sep 27 03:17:47 2014: C<Module> L<multidimensional|multidimensional>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.001011>
+=======
+C<VERSION: 0.011>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:48 2014: C<Module> L<B::Hooks::EndOfScope|B::Hooks::EndOfScope>
+=======
+=head2 Sat Sep 27 03:17:47 2014: C<Module> L<strictures|strictures>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.13>
+=======
+C<VERSION: 1.005005>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:17:48 2014: C<Module> L<Import::Into|Import::Into>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.002004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:17:49 2014: C<Module> L<Moo|Moo>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.006000>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:17:49 2014: C<Module> L<MooX::Types::MooseLike|MooX::Types::MooseLike>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.27>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:50 2014: C<Module> L<namespace::clean|namespace::clean>
+=======
+=head2 Sat Sep 27 03:17:52 2014: C<Module> L<Log::Any|Log::Any>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.25>
+=======
+C<VERSION: 0.15>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:52 2014: C<Module> L<Test::Warnings|Test::Warnings>
+=======
+=head2 Sat Sep 27 03:17:53 2014: C<Module> L<Digest::JHash|Digest::JHash>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.016>
+=======
+C<VERSION: 0.08>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:53 2014: C<Module> L<Test::Without::Module|Test::Without::Module>
+=======
+=head2 Sat Sep 27 03:17:54 2014: C<Module> L<Carp::Assert|Carp::Assert>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 0.18>
+=======
+C<VERSION: 0.21>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:12:55 2014: C<Module> L<JSON::Any|JSON::Any>
+=======
+=head2 Sat Sep 27 03:17:59 2014: C<Module> L<Devel::Symdump|Devel::Symdump>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 1.36>
+=======
+C<VERSION: 2.12>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+<<<<<<< HEAD
+=head2 Sat Sep 27 03:14:30 2014: C<Module> L<Devel::NYTProf|Devel::NYTProf>
+=======
+=head2 Sat Sep 27 03:17:59 2014: C<Module> L<Pod::Coverage|Pod::Coverage>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: bin/pod_cover>
+
+=back
+
+=head2 Sat Sep 27 03:18:00 2014: C<Module> L<Test::Pod::Coverage|Test::Pod::Coverage>
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+<<<<<<< HEAD
+C<VERSION: 5.06>
+
+=item *
+
+C<EXE_FILES: bin/nytprofhtml bin/flamegraph.pl bin/nytprofcsv bin/nytprofcalls bin/nytprofcg bin/nytprofmerge>
+=======
+C<VERSION: 1.10>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:18:02 2014: C<Module> L<Time::Duration|Time::Duration>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.1>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:18:04 2014: C<Module> L<Exporter::Lite|Exporter::Lite>
+
+=over 4
+
+=item *
+
+C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Sep 27 03:18:04 2014: C<Module> L<Time::Duration::Parse|Time::Duration::Parse>
 
 =over 4
 
@@ -1582,7 +2113,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:37 2014: C<Module> L<Module::Implementation|Module::Implementation>
+=head2 Sat Sep 27 03:18:08 2014: C<Module> L<Params::Util|Params::Util>
 
 =over 4
 
@@ -1596,7 +2127,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.09>
+C<VERSION: 1.07>
 
 =item *
 
@@ -1604,7 +2135,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:39 2014: C<Module> L<Package::Stash::XS|Package::Stash::XS>
+=head2 Sat Sep 27 03:18:10 2014: C<Module> L<Sub::Install|Sub::Install>
 
 =over 4
 
@@ -1618,7 +2149,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.28>
+C<VERSION: 0.928>
 
 =item *
 
@@ -1626,7 +2157,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:41 2014: C<Module> L<Package::Stash|Package::Stash>
+=head2 Sat Sep 27 03:18:11 2014: C<Module> L<Data::OptList|Data::OptList>
 
 =over 4
 
@@ -1640,29 +2171,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.37>
-
-=item *
-
-C<EXE_FILES: bin/package-stash-conflicts>
-
-=back
-
-=head2 Sat Sep 27 03:12:45 2014: C<Module> L<Variable::Magic|Variable::Magic>
-
-=over 4
-
-=item *
-
-C<installed into: /home/isucon/webapp/perl/local/lib/perl5>
-
-=item *
-
-C<LINKTYPE: dynamic>
-
-=item *
-
-C<VERSION: 0.54>
+C<VERSION: 0.109>
 
 =item *
 
@@ -1670,7 +2179,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:47 2014: C<Module> L<Sub::Exporter::Progressive|Sub::Exporter::Progressive>
+=head2 Sat Sep 27 03:18:11 2014: C<Module> L<Sub::Exporter|Sub::Exporter>
 
 =over 4
 
@@ -1684,7 +2193,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.001011>
+C<VERSION: 0.987>
 
 =item *
 
@@ -1692,7 +2201,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:48 2014: C<Module> L<B::Hooks::EndOfScope|B::Hooks::EndOfScope>
+=head2 Sat Sep 27 03:18:12 2014: C<Module> L<String::RewritePrefix|String::RewritePrefix>
 
 =over 4
 
@@ -1706,7 +2215,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.13>
+C<VERSION: 0.007>
 
 =item *
 
@@ -1714,7 +2223,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:50 2014: C<Module> L<namespace::clean|namespace::clean>
+=head2 Sat Sep 27 03:18:13 2014: C<Module> L<MooX::Types::MooseLike::Numeric|MooX::Types::MooseLike::Numeric>
 
 =over 4
 
@@ -1728,7 +2237,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.25>
+C<VERSION: 1.02>
 
 =item *
 
@@ -1736,7 +2245,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:52 2014: C<Module> L<Test::Warnings|Test::Warnings>
+=head2 Sat Sep 27 03:18:14 2014: C<Module> L<Task::Weaken|Task::Weaken>
 
 =over 4
 
@@ -1750,7 +2259,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.016>
+C<VERSION: 1.04>
 
 =item *
 
@@ -1758,7 +2267,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:53 2014: C<Module> L<Test::Without::Module|Test::Without::Module>
+=head2 Sat Sep 27 03:18:16 2014: C<Module> L<Data::UUID|Data::UUID>
 
 =over 4
 
@@ -1772,7 +2281,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 0.18>
+C<VERSION: 1.219>
 
 =item *
 
@@ -1780,7 +2289,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:12:55 2014: C<Module> L<JSON::Any|JSON::Any>
+=head2 Sat Sep 27 03:18:17 2014: C<Module> L<CHI|CHI>
 
 =over 4
 
@@ -1794,7 +2303,7 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 1.36>
+C<VERSION: 0.58>
 
 =item *
 
@@ -1802,7 +2311,7 @@ C<EXE_FILES: >
 
 =back
 
-=head2 Sat Sep 27 03:14:30 2014: C<Module> L<Devel::NYTProf|Devel::NYTProf>
+=head2 Sat Sep 27 03:20:16 2014: C<Module> L<Cache::FastMmap|Cache::FastMmap>
 
 =over 4
 
@@ -1816,11 +2325,12 @@ C<LINKTYPE: dynamic>
 
 =item *
 
-C<VERSION: 5.06>
+C<VERSION: 1.40>
 
 =item *
 
-C<EXE_FILES: bin/nytprofhtml bin/flamegraph.pl bin/nytprofcsv bin/nytprofcalls bin/nytprofcg bin/nytprofmerge>
+C<EXE_FILES: >
+>>>>>>> ebe9f5852410c368eaf447cccc4c7160921e762b
 
 =back
 

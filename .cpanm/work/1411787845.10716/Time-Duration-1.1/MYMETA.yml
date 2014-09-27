@@ -1,0 +1,23 @@
+---
+abstract: 'rounded or exact English expression of durations'
+author:
+  - ', Sean M. Burke C<sburke@cpan.org>, all rights'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Module::Install version 0.67, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Time-Duration
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Test::Pod: '0'
+  Test::Pod::Coverage: '0'
+version: '1.06'

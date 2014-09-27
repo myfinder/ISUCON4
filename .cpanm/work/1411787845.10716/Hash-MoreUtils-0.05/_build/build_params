@@ -1,0 +1,139 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installman3dir' => '',
+         'installsiteman1dir' => '',
+         'installsiteman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'configure_requires' => {},
+         'autosplit' => undef,
+         'get_options' => {},
+         'include_dirs' => [],
+         'dist_version_from' => 'lib/Hash/MoreUtils.pm',
+         'base_dir' => '/home/isucon/.cpanm/work/1411787845.10716/Hash-MoreUtils-0.05',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'install_path' => {},
+         'extra_manify_args' => undef,
+         'script_files' => undef,
+         'scripts' => undef,
+         'debugger' => undef,
+         'bundle_inc' => [],
+         'sign' => undef,
+         'pureperl_only' => 0,
+         'cpan_client' => 'cpan',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'extra_compiler_flags' => [],
+         'use_tap_harness' => 0,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'mymetafile2' => 'MYMETA.json',
+         'meta_add' => {},
+         'install_base_relpaths' => {},
+         'mymetafile' => 'MYMETA.yml',
+         'create_license' => undef,
+         'config_dir' => '_build',
+         'metafile2' => 'META.json',
+         'prefix_relpaths' => {},
+         'create_readme' => undef,
+         'test_files' => [
+                           't/*.t',
+                           'xt/*.t'
+                         ],
+         'quiet' => undef,
+         'build_script' => 'Build',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'build_bat' => 0,
+         'original_prefix' => {},
+         'verbose' => undef,
+         'mb_version' => '0.421',
+         'meta_merge' => {
+                           'resources' => {
+                                            'repository' => 'https://github.com/perl5-utils/Hash-MoreUtils'
+                                          }
+                         },
+         'c_source' => undef,
+         'PL_files' => undef,
+         'program_name' => undef,
+         'install_sets' => {},
+         'config' => undef,
+         'prefix' => undef,
+         'needs_compiler' => '',
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'pm_files' => undef,
+         'auto_configure_requires' => 1,
+         'tap_harness_args' => {},
+         'html_css' => '',
+         'dist_author' => [
+                            'Hans Dieter Pearcey <hdp@cpan.org>',
+                            'Jens Rehsack <rehsack@cpan.org>'
+                          ],
+         'has_config_data' => undef,
+         'magic_number' => undef,
+         'allow_mb_mismatch' => 0,
+         'requires' => {},
+         'recommends' => {},
+         'blib' => 'blib',
+         'build_class' => 'Module::Build',
+         'dist_suffix' => undef,
+         'destdir' => undef,
+         'recurse_into' => [],
+         'dist_version' => '0.05',
+         'pollute' => undef,
+         'xs_files' => undef,
+         'metafile' => 'META.yml',
+         'extra_linker_flags' => [],
+         'bundle_inc_preload' => [],
+         'release_status' => 'stable',
+         'orig_dir' => '/home/isucon/.cpanm/work/1411787845.10716/Hash-MoreUtils-0.05',
+         'module_name' => 'Hash::MoreUtils',
+         'test_requires' => {},
+         '_added_to_INC' => [
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'use_rcfile' => 1,
+         'debug' => undef,
+         'share_dir' => undef,
+         'license' => 'perl',
+         'pod_files' => undef,
+         'installdirs' => 'site',
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'recursive_test_files' => undef,
+         'dist_abstract' => undef,
+         'create_makefile_pl' => undef,
+         'conflicts' => {},
+         'allow_pureperl' => 0,
+         'build_requires' => {
+                               'Test::More' => '0.90'
+                             },
+         'dynamic_config' => 1,
+         'dist_name' => 'Hash-MoreUtils',
+         'create_packlist' => 1
+       }
+     ];
+$x; }

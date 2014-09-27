@@ -1,0 +1,26 @@
+Revision history for Perl extension Time::Duration
+
+2013-04-02  Avi Finkel     avi@finkel.org
+
+	* Release 1.1 -- Adding millisecond support.
+
+2007-08-18  Avi Finkel     avi@finkel.org
+
+	* Release 1.06 -- Fixing Makefile
+
+2006-07-23  Avi Finkel     avi@finkel.org
+
+	* Release 1.04 -- Reorganizing tests
+
+2006-02-28  Avi Finkel     avi@finkel.org
+
+	* Release 1.03 -- Updating new maintainer information.
+
+2002-10-08  Sean M. Burke  sburke@cpan.org
+
+	* Release 1.02 -- added concise().
+	
+2001-10-25  Sean M. Burke  sburke@netadventure.net
+
+	* Release 1.01 -- first release version.
+
